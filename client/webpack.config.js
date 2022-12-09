@@ -4,7 +4,7 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     main: './src/js/index.js',
     install: './src/js/install.js'
